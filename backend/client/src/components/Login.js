@@ -46,13 +46,13 @@ const Login = (props) => {
 
 
                 <div className='logo-container'>
-                    <img src="/assets/NoteX-logo-light.png" className="login-logo" alt="" />
+                    <img src="/assets/LinkedList-logo-light.png" className="login-logo" alt="" />
                 </div>
 
                 <div className='formContainer mt-5'>
 
                     <form className='loginForm' onSubmit={handleSubmit}>
-                        <h2 className="Login-to-NoteX mb-3 ">Login Now</h2>
+                        <h2 className="Login-to-LinkedList mb-3 ">Login Now</h2>
                         <div className="my-3">
                             <label htmlFor="email" className="form-label" style={{ fontWeight: "bold" }}>Email address</label>
                             <input type="email" className="form-control" value={credentials.email}

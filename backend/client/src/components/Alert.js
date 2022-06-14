@@ -30,7 +30,7 @@ function Alert(props) {
 
     return (
         <div className='d-flex justify-content-end' style={{ height: 'max-content', marginRight: "10px" }}>
-            {props.alert && <div className={`alert noteX-alert text-light alert-dismissible fade show`}
+            {props.alert && <div className={`alert LinkedList-alert text-light alert-dismissible fade show`}
                 style={{ backgroundColor: alertcolor }} role="alert">
                 <i className={alerticon} style={{ fontSize: "130%" }}></i>  <span style={{ fontSize: "100%", fontWeight: "bold" }}>{props.alert.msg}</span>
             </div>}

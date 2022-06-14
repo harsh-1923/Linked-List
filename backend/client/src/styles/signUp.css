@@ -1,114 +1,97 @@
-.signupForm input{
-    width: 20.5rem;
-    border: 2px solid #5e5f60;
-    border-radius: 10px;
-    background-color: transparent;
-    box-shadow: rgba(0, 0, 0, 0.14) 0px 2px 4px;
+.signupForm input {
+  width: 20.5rem;
+  border: 2px solid #5e5f60;
+  border-radius: 10px;
+  background-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.14) 0px 2px 4px;
 }
 
-.signupForm input :focus{
-    background-color: transparent !important;
-    outline: none !important;
-    box-shadow: none;
+.signupForm input :focus {
+  background-color: transparent !important;
+  outline: none !important;
+  box-shadow: none;
 }
-
 
 .signup-btn {
-    width: 100%;
-    background-color:#252526;
-    color: white;
-    font-weight: bolder;
-    text-transform: uppercase;
-    letter-spacing: 2px ;
+  width: 100%;
+  background-color: #252526;
+  color: white;
+  font-weight: bolder;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .signup-btn:hover {
-    background-color:rgb(243, 243, 243);
-    color: black;
-    border: 2px solid lightgray;
-    border: none;
-    box-shadow: rgba(0, 0, 0, 0.14) 0px 2px 4px;
-    font-weight: bolder;
- 
+  background-color: rgb(243, 243, 243);
+  color: black;
+  border: 2px solid lightgray;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.14) 0px 2px 4px;
+  font-weight: bolder;
 }
 
-.signup-btn:focus{
-    outline: none !important;
-    border: none !important;
-    box-shadow: none !important;
+.signup-btn:focus {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
 }
-.signupPage{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-  
-
+.signupPage {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
 }
 
-.signup-main-section{
-   
-    padding: 3rem;
-   
-    border-radius: 2rem;
-    width: max-content;
-    height: max-content;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    
+.signup-main-section {
+  padding: 3rem;
+
+  border-radius: 2rem;
+  width: max-content;
+  height: max-content;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.formContainer{
-display: flex;
-justify-content: center;
-
-
+.formContainer {
+  display: flex;
+  justify-content: center;
 }
 
-.signup-to-NoteX{
-    text-transform: uppercase;
-    font-weight: bolder;
-    font-size:xx-large;
-    text-align: center;
-    
+.signup-to-LinkedList {
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: xx-large;
+  text-align: center;
 }
 
-.logo-container{
-display: flex;
-justify-content: center;
+.logo-container {
+  display: flex;
+  justify-content: center;
 }
 
-.signup-logo{
-width: 8rem;
-height: auto;
+.signup-logo {
+  width: 8rem;
+  height: auto;
 }
 
-.login-link
-{
-    color: black;
-    font-weight: bold;
-  
+.login-link {
+  color: black;
+  font-weight: bold;
 }
 
-.login-link:hover
-{
-    color: darkslategray;
+.login-link:hover {
+  color: darkslategray;
 }
 
 @media (max-width: 767px) {
-
-    .signup-main-section{
-   
+  .signup-main-section {
     padding: 0;
     border-radius: 0;
     width: auto;
     height: auto;
     box-shadow: none;
-    
-}
+  }
 
-
-.signupForm input{
+  .signupForm input {
     width: 19rem;
-    
-}
+  }
 }
