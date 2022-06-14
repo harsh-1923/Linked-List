@@ -53,13 +53,13 @@ const SignUp = (props) => {
             <div className="signup-main-section">
 
                 <div className='logo-container'>
-                    <img src="/assets/NoteX-logo-light.png" className="signup-logo" alt="" />
+                    <img src="/assets/LinkedList-logo-light.png" className="signup-logo" alt="" />
                 </div>
 
                 <div className='formContainer mt-5'>
                     <form className="signupForm" onSubmit={handleSubmit}>
 
-                        <h2 className="signup-to-NoteX mb-3 ">Sign Up Now</h2>
+                        <h2 className="signup-to-LinkedList mb-3 ">Sign Up Now</h2>
                         <div className='d-flex'>
                             <div className="my-3" style={{ marginRight: "0.5rem" }} >
                                 <label htmlFor="name" className="form-label" style={{ fontWeight: "bold" }}>First Name</label>

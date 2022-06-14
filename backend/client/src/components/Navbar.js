@@ -30,7 +30,7 @@ const Navbar = () => {
                 <div>
                     <Link className="navbar-brand" to="/">
                         <img
-                            src="/assets/NoteX-brand-light.png"
+                            src="/assets/LinkedList-brand-light.png"
                             className=" d-inline-block align-top signup-logo"
                             style={{ verticalAlign: "middle !important", cursor: "pointer" }}
                             alt="" />
