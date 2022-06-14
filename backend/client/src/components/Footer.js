@@ -4,11 +4,11 @@ function Footer() {
     return (
 
         <div className='footer-div px-2 pt-3'>
-            <img src="/assets/NoteX-logo-dark.png" alt="" className='footer-logo' />
+            <img src="/assets/LinkedList-logo-dark.png" alt="" className='footer-logo' />
 
             <div className="min-footer d-flex justify-content-center" style={{ textAlign: "center" }}>
                 <div className="min-footer-text">
-                    © NoteX, All Rights Reserved
+                    © LinkedList, All Rights Reserved
                     <p >
                         Website by Kounik Maitra
                     </p>
