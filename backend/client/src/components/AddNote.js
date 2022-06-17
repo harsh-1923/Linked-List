@@ -1,9 +1,14 @@
 import React, { useContext, useState } from 'react'
+
 import noteContext from '../context/notes/noteContext';
+
 import "../styles/addNote.css"
 const AddNote = () => {
+
     const context = useContext(noteContext);
+
     const { addNote } = context;
+    console.log(context);
     const [note, setNote] = useState({ title: "", description: "", tag: "General" })
     const handleOnChange = (e) => {
 
@@ -15,6 +20,7 @@ const AddNote = () => {
         addNote(note.title, note.description, note.tag);
         setNote({ title: "", description: "", tag: "General" });
     }
+
 
     return (
 

@@ -1,9 +1,8 @@
-import React from 'react'
+import React, { useContext, useEffect } from 'react'
 import Footer from './Footer';
 import Navbar from './Navbar';
 
 const About = () => {
-
 
     return (
 
