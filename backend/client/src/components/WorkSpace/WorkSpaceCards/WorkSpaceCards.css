@@ -1,0 +1,26 @@
+.ws-card-wrapper {
+  width: 400px;
+  height: 200px;
+  background-color: grey;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.test {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.all-ws-display {
+  min-width: 20vw;
+  background-color:red;
+}
+
+.test1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  flex-direction: column;
+}
