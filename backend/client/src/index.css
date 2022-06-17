@@ -1,4 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@500&family=Nunito:wght@500&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /* font-family: "gilroy-bold", Helvetica, Arial; */
+}
+
+html {
+  scroll-behavior: smooth;
+  --dark: rgb(15, 15, 15);
+  --light: #fbe5e6;
+  --light-bg: #f4f4f4;
+  --muted: #707070;
+  --main-dark: #70255e;
+  --accent-purple: #c8cbf5;
+  --accent-pink: #fbe5e6;
+  --accent-green: #bad6bf;
+}
+
+/* @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@500&family=Nunito:wght@500&display=swap");
 
 html,
 body {
@@ -32,13 +51,13 @@ a {
   text-decoration: none;
 }
 
-* {
+//* {
   box-sizing: border-box;
 }
-*:focus{
+//*:focus{
   outline: none;
 }
 i{
   cursor: pointer;
 }
-
+ */

@@ -1,0 +1,31 @@
+.navbar-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  padding: 20px 10%;
+  background-color: rgb(15, 15, 15);
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+.muted {
+  color: grey;
+}
+
+.navbar-img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+}
