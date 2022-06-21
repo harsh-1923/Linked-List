@@ -9,8 +9,11 @@ connectToMongo();
 app.use(cors());
 app.use(express.json()); // middleware to deal with json
 
+const workSpaceRouter = require("./routes/workspace.js");
+
 app.use("/api/auth", require("./routes/auth"));
 app.use("/api/notes", require("./routes/notes"));
+app.use("/api/workspaces", workSpaceRouter);
 
 app.use(express.static(path.join(__dirname, "/client/build")));
 app.get("*", (req, res) => {
