@@ -6,6 +6,7 @@ import HomePage from "./Pages/HomePage/HomePage.jsx";
 import Navbar from "./components/Navbar/Navbar.jsx";
 import LoginPage from "./Pages/LoginPage/LoginPage.jsx";
 import WorkSpaceDisplayPage from "./Pages/WorkSpaceDisplayPage/WorkSpaceDisplayPage.jsx";
+import SingleWorkSpacePage from "./Pages/SingleWorkSpacePage/SingleWorkSpacePage.jsx";
 
 import AuthProvider from "./context/AuthContext";
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/userhome" element={<WorkSpaceDisplayPage />} />
+        <Route path="/workspace/:uid" element={<SingleWorkSpacePage />} />
       </Routes>
     </AuthProvider>
   );

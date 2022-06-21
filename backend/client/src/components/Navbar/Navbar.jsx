@@ -6,7 +6,7 @@ import { AuthContext } from "../../context/AuthContext";
 
 const Navbar = () => {
   const authContext = useContext(AuthContext);
-  console.log(authContext.googleUser);
+  // console.log(authContext.googleUser);
   const navigate = useNavigate();
 
   return (
@@ -36,16 +36,16 @@ const Navbar = () => {
         <svg
           stroke="currentColor"
           fill="currentColor"
-          stroke-width="0"
+          strokeWidth="0"
           viewBox="0 0 16 16"
           height="1em"
           width="1em"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            fill-rule="evenodd"
+            fillRule="evenodd"
             d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 100-6 3 3 0 000 6z"
-            clip-rule="evenodd"
+            clipRule="evenodd"
           ></path>
         </svg>
       )}

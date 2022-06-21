@@ -14,12 +14,12 @@ const LoginPage = () => {
   const responseGoogle = (response) => {
     const { name, email, imageUrl } = response.profileObj;
     const user = { name, email, imageUrl };
-    console.log(user, " user recienved first CHECK");
+    // console.log(user, " user recienved first CHECK");
 
     localStorage.setItem("googleUser", JSON.stringify(user));
 
     authContext.setGoogleUser(user);
-    console.log(authContext.googleUser, "Across all pages");
+    // console.log(authContext.googleUser, "Across all pages");
     navigate("/userhome");
     // authContext.setGoogleUser(user);
 
